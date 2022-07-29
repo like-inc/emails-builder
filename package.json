@@ -1,0 +1,21 @@
+{
+  "name": "emails-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:email": "gulp -f ./gulpfile.js watch",
+    "build:email": "gulp -f ./gulpfile.js && rm -rf ./emails/compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-inline-css": "^4.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.0"
+  }
+}
